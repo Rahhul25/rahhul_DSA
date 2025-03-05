@@ -1,2 +1,5 @@
-# rahhul_me
-about me
+# Rahhul N V
+###### Electronics and communication 
+###### Engineering Graduate
+
+-🍃 Currently Learning DSA
