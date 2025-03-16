@@ -1,14 +1,31 @@
-## Hi there its me 👋 Rahhul (** updating..)
-###### Electronics and communication Engineering Graduate
-<img align="right" height="300" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+## DSA CONCEPTS(I LEARN)
 
-- 🍃 Currently Learning DSA
-- ⚡Looking for an SDE role
+ These are the concepts ,that I keeps
+ on updating here as I learn.
 
+#### ARRAY LIST
+> To Remove Even Numbers in the Arraylist
+```sh
+class Removeeven{
 
-
-### I CODE in :-
-<img width="50" height="50" src="https://img.icons8.com/fluency/48/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/> <img width="50" height="50" src="https://img.icons8.com/color/50/html-5.png" alt="html-5"/> <img width="50" height="50" src="https://img.icons8.com/color/50/css3.png" alt="css3"/> <img width="50" height="50" src="https://img.icons8.com/dusk/64/javascript-logo.png" alt="javascript-logo"/> <img width="50" height="50" src="https://img.icons8.com/fluency/48/sql.png" alt="sql"/>
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/Rahhul_25?theme=dark&font=NTR)
-
+	public static void main(String[] args) {
+	 ArrayList<Integer>list1=new ArrayList<>();
+	 list1.add(5);
+	 list1.add(4);
+	 list1.add(8);
+	 list1.add(13);
+	 list1.add(7);
+	 list1.add(9);
+	 list1.add(101);
+	 list1.add(34);
+	 list1.add(41);
+	 list1.add(15);
+	 for(int i=list1.size()-1;i>=0;i--) {
+		if(list1.get(i)%2==0) {
+			list1.remove(i);
+		}
+	 }
+	 System.out.println(list1);
+	 }
+}
+```
