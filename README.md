@@ -29,3 +29,35 @@ class Removeeven{
 	 }
 }
 ```
+#### STRINGS
+> To reverse vowels of a String code
+```sh
+class reversestr{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        String str="WelcometoCoding";
+        char ch[]=str.toCharArray();
+        int i=0;
+        int j=str.length()-1;
+        while(i<j){
+            while(ch[i] !='a' && ch[i] !='e' && ch[i] !='i' && ch[i] !='o' && ch[i] !='u'){
+                i++;
+            }
+            while(ch[j] !='a' && ch[j] !='e' && ch[j] !='i' && ch[j] !='o' && ch[j] !='u'){
+                j--;
+            }
+            if(i>=j){
+                break;
+            }
+            char s=ch[i];
+            ch[i]=ch[j];
+            ch[j]=s;
+            i++;
+            j--;
+        }
+        for(char s : ch){
+            System.out.print(s);
+        }
+    }
+}
+```
