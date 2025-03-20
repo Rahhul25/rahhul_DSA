@@ -61,3 +61,22 @@ class reversestr{
     }
 }
 ```
+> To convert letters to lowercase of a String
+```sh
+class tolowcase{
+    public static void main(String args[]){
+        String str="WElcOmeTOScaLEr";
+        char ch[]=str.toCharArray();
+        for(int i=0;i<str.length();i++){
+            char s=ch[i];
+            if(s>='A' && s<='Z'){
+                char r=(char)(s-'A'+'a');
+                ch[i]=r;
+            }
+        }
+        for(char r:ch){
+            System.out.print(r);
+        }
+    }
+}
+```
