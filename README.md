@@ -80,3 +80,33 @@ class tolowcase{
     }
 }
 ```
+#### SORTING
+> Selection Sort
+```sh
+import java.util.*;
+
+class selecsort {
+
+	public static void main(String[] args) {
+	 int arr[]= {2,8,4,-1,7,10,5,6};
+	 int minval=0;
+	 int minindex=0;
+	 for(int i=0;i<arr.length-1;i++) {
+		 minval=arr[i];
+		 minindex=i;
+		 for(int j=i+1;j<arr.length;j++) {
+			 if(arr[j]< minval) {
+				 minval=arr[j];
+				 minindex=j;
+			 }
+		 }
+		 int temp=arr[minindex];
+		 arr[minindex]=arr[i];
+		 arr[i]=temp;
+	 }
+	 for(int val: arr) {
+		 System.out.print(val +" ");
+	 }
+    }
+}
+```
