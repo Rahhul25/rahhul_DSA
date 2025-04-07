@@ -81,7 +81,7 @@ class tolowcase{
 }
 ```
 #### SORTING
-> Selection Sort
+   > Selection Sort
 ```sh
 import java.util.*;
 
@@ -110,7 +110,7 @@ class selecsort {
     }
 }
 ```
-> Bubble Sort
+   > Bubble Sort
 ```sh
  class bubblesort{
 
